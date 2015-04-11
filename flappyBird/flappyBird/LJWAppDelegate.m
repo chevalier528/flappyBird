@@ -14,7 +14,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
+    //测试
     RootViewController *vc=[[RootViewController alloc]init];
     self.window.rootViewController=vc;
     [vc release];
